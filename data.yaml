@@ -1,0 +1,27 @@
+train: images/train
+val: images/val
+test: images/test
+
+# for YOLO V5
+# names:
+#   0: longitudinal_crack
+#   1: transverse_crack
+#   2: alligator_crack
+#   3: pothole
+#   4: manhole_cover
+#   5: longitudinal_patch
+#   6: transverse_patch
+
+
+# For YOLO V8
+
+
+nc: 7 
+names:
+  - longitudinal_crack
+  - transverse_crack
+  - alligator_crack
+  - pothole
+  - manhole_cover
+  - longitudinal_patch
+  - transverse_patch
